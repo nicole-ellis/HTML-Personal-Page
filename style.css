@@ -32,20 +32,25 @@
     body {
         margin: 0;
         font-family: 'Justus-Oldstyle', sans-serif;
-        background: linear-gradient(180deg,#e9c1e7, #8392c4);
-        color: #0b131a;
+        background: linear-gradient(180deg, #2b2d4a 0%, #3c456d 100%);
+        color: #f3eee8;   
     }
 
-    h1, h2, nav {
+    h1, h3, nav {
         font-family: 'Flaviotte', sans-serif;
+        color: #f3eee8;
     }
+
+    section h2 {
+  color: #ffddb0;
+    } 
   
 /* ========================
    NAVIGATION
 ======================== */
   nav {
     font-size: 22px;
-    background-color: #1e293b;
+    background-color: #1c2238;
     padding: 15px;
     border-radius: 10px;
     margin: 40px auto;
@@ -62,13 +67,13 @@
   
   nav a {
     text-decoration: none;
-    color: #75a4b8;
-    transition: 0.3s;
+    color: #9fd3ff;
+    transition: color 0.3s ease;
     font-weight: bold;
   }
   
   nav a:hover {
-    color: #fcb7f8;
+    color: #d89a5b;
   }
   
 /* ========================
@@ -110,7 +115,7 @@
   }
 
   .container {
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(20, 24, 43, 0.45);
     padding: 30px;
     border-radius: 15px;
     max-width: 900px;
@@ -179,4 +184,60 @@
     left: 0%;
     transform: scaleX(-1);
   }
+}
+
+/* ========================
+   BUTTONS
+======================== */
+
+.hero {
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  padding: 0 20px;
+}
+
+.hero h1 {
+  font-size: 56px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 20px;
+  color: #9fd3ff;
+  margin-bottom: 20px;
+}
+
+.description {
+  max-width: 600px;
+  margin: 0 auto 30px;
+  color: #c9d1e6;
+  line-height: 1.6;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: #8ecae6;
+  color: #1c2238;
+  text-decoration: none;
+  font-weight: bold;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  background-color: #d89a5b;
+}
+
+.btn.secondary {
+  background-color: transparent;
+  border: 1px solid #8ecae6;
+  color: #8ecae6;
 }
