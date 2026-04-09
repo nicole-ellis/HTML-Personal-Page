@@ -2,15 +2,11 @@
 <html lang="en">
 <head>
    <meta charset="utf-8">
-   <meta name="viewport" 
-         content="width=device-width, initial-scale=1.0">
-
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Nicole Ellis | Aspiring Software Engineer</title>
-
    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <!--- GLOBAL HEADER -->
    <header>
       <nav>
          <ul>
@@ -20,48 +16,50 @@
          </ul>
       </nav>
 
+      <div id="construction-modal" class="modal">
+         <div class="modal-content">
+            <h2>This website is under construction!</h2>
+            <p>I'm currently developing this website, but I appreciate that you stopped by :)</p>
+            <button id="close-modal">Enter Site</button>
+         </div>
+      </div>
+
       <section class="hero">
          <h1>Nicole Ellis</h1>
+         <div class="hero-line"></div>
 
          <p class="subtitle">
             Game-focused Software Engineer | T2 VALORANT Coach
          </p>
 
-         <p class="hero-buttons">
-            <a href="#projects" class="btn">View Projects</a>
-            <a href="#coaching" class="btn secondary">Coaching</a>
-         </div>
-         </p>
+<!--        <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a href="#coaching" class="btn btn-secondary">Coaching</a>
+         </div> -->
       </section>
-
    </header>
 
-   <!--- MAIN -->
    <main class="container">
-      <h2>About me</h2>
-      <p>
-         Hiya! My name is Nicole Ellis. </br> 
-         
-         I am in my final year, studying a Bachelor of Information Technology (m. Games and Immersive Media) at Monash University.
-      </p>
-
-      <h2>A little more about me</h2>
-      <p>
-         TBD
-      </p>
-   
+      <section id="about">
+         <h2>About me</h2>
+         <p>
+            Hiya! My name is Nicole Ellis.<br>
+            I am in my final year, studying a Bachelor of Information Technology
+            (Games and Immersive Media) at Monash University.
+         </p>
+      </section>
       <blockquote>
          <q>Fail again, try again, fail better</q>
       </blockquote>
-         <p>- by Samuel Beckett</p>
+      <p>- Samuel Beckett</p>
 
       <div class="player"></div>
    </main>
 
-      <!--- GLOBAL FOOTER -->
-      <footer>
-         <p>Built with ♡ by Nicole</p>
-      </footer>
-   
+   <footer>
+      <p>Built with ♡ by Nicole</p>
+   </footer>
+
+   <script src="script.js"></script>
 </body>
 </html>
