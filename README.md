@@ -1,5 +1,34 @@
-# HTML Personal Page
-A slightly comical starter project as an introduction to HTML coding
-- **Index page** with an 'About Me' and a 'Bio'
-- **Blog page** with my Favourite Homemade Recipe and Favourite Pokémon
-- **Contact me page** linking to my LinkedIn, Github and ArtStation
+# Portfolio Website (HTML, CSS)
+
+## Overview
+This is my personal portfolio website, built from scratch using HTML and CSS.
+
+It serves as a central hub for my projects, experience, and ongoing work. The site is actively being developed and iterated on.
+
+---
+
+## Live Site
+https://nicole-ellis.github.io/portfolio-website/
+
+---
+
+## Current Features
+
+- Multi-page structure (Home, Blog, Contact)
+- Custom styling and layout
+- Pixel art visuals and animations
+
+---
+
+## In Progress
+
+- Projects showcase section
+- Coaching & experience section
+- Additional interactive elements
+
+---
+
+## Technologies
+
+- HTML
+- CSS
