@@ -52,6 +52,14 @@
     section h2 {
   color: #ffddb0;
     } 
+
+    a:link {
+      color:#9fd3ff
+    }
+
+    a:visited {
+      color:#d89a5b
+    }
   
 /* ========================
    NAVIGATION
